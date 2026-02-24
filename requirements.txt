@@ -1,0 +1,20 @@
+arxiv>=2.1.3
+PyMuPDF>=1.23.0
+Pillow>=10.0.0
+# spaCy 3.7.x is most stable with NumPy < 2.0
+numpy<2.0
+# OpenCV 4.12+ requires NumPy >= 2; pin to keep compatibility with spaCy.
+opencv-python==4.10.0.84
+pytesseract>=0.3.10
+spacy>=3.7.0
+
+# Training utilities (QC classifier trainer uses sklearn metrics)
+scikit-learn>=1.3.0
+
+# Deep learning (required to load/run checkpoints in ./models/)
+# Note: depending on your environment you may want CPU-only or CUDA wheels.
+# If pip cannot resolve the correct wheel automatically, install from PyTorch's index URL:
+# - CPU-only (pip):  pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision
+# - CUDA (pip):      see https://pytorch.org/get-started/locally/
+torch
+torchvision
