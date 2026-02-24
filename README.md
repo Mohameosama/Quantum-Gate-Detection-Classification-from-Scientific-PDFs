@@ -188,7 +188,7 @@ python -m predict.batch_predict_gates_from_folder \
 
 ## Dataset (gate patch labels)
 
-The gate patch dataset is created from real circuit figures extracted from arXiv PDFs. There is no ready-to-use dataset (in this format) for gate detection and classification from noisy, real-world paper figures, so patches are collected and labeled from scratch.
+The gate patch dataset is created from real circuit figures extracted from arXiv PDFs. There is no ready-to-use dataset (in this format) for gate detection and classification from noisy, real-world paper figures, so patches are collected and labeled from scratch https://www.kaggle.com/datasets/mosamab/labeled-quantum-gates/data.
 
 ### Classes (example distribution)
 
